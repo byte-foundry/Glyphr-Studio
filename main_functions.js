@@ -10,7 +10,8 @@
 		drawLogo();
 		hydrateGlyphrProject(sandboxglyphrproject);
 		_UI.navhere = "character edit";
-		navigate();
+		selectchar(102);		// lowercase f
+		navigate("npAttributes");
 		//debug("MAIN SETUP() - END");
 	}
 		
